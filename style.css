@@ -1,0 +1,73 @@
+header nav 
+{
+    background-image: linear-gradient(red, orangered);
+   margin: 0px auto;
+   height: 120px;
+   width: 100%;
+}
+nav div.top
+{
+    width: 90%;
+    height: 40px;
+    /* background-color: cyan; */
+    margin: 0px auto;
+    
+}
+nav > div.top > div.right {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    float: right;
+    width: 35%;
+}
+nav div.top a 
+{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    text-transform: capitalize;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+              
+}
+nav div.top a:hover 
+{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    text-transform: capitalize;
+    color: lightgray;
+              
+}
+nav div.top div.left
+{
+    float: left;
+    width: 35%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* margin: 0px auto; */
+    
+}
+section {
+    width: 1200px;
+    height: 300px;
+    /* background-color: orangered; */
+    margin: 0px auto;
+    margin-top: 30px;
+}
+section div.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav div.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav div.bottom div.search input#search{
+    width: 850px;
+    height: 30px;
+    margin-left: 50px;
+}
